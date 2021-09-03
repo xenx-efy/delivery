@@ -46,6 +46,6 @@ jobs:
           switches: -avzr --delete
           path: ./
           remote_path: /home/xenx/www
-          remote_host: https://xenx.alwaysdata.net
+          remote_host: xenx.alwaysdata.net
           remote_user: xenx
           remote_key: ${{ secrets.DEPLOY_KEY }}
