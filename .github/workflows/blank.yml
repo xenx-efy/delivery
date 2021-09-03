@@ -39,13 +39,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@main
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.1
         with:
           switches: -avzr --delete
           path: ./
           remote_path: /home/xenx/www
-          remote_host: xenx.alwaysdata.net
+          remote_host: https://xenx.alwaysdata.net
           remote_user: xenx
           remote_key: ${{ secrets.DEPLOY_KEY }}
