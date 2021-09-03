@@ -1,0 +1,24 @@
+{
+  "name": "delivery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx mix",
+    "watch": "npx mix --watch",
+    "prod": "npx mix --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-mix": "^6.0.29"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "tailwindcss": "^2.2.9"
+  }
+}
