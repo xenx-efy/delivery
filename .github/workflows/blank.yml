@@ -49,3 +49,5 @@ jobs:
           remote_host: ssh-xenx.alwaysdata.net
           remote_user: xenx
           remote_key: ${{ secrets.DEPLOY_KEY }}
+          remote_key_pass: ${{ secrets.DEPLOY_PASS }}
+
